@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+}
+.cell {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.winner {
+  display: none;
+}
